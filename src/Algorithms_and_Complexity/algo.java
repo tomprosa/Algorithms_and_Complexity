@@ -24,14 +24,6 @@ public class algo {
 				car_f_92.add(file_integers);
 				count++;
 				System.out.println(count+" Φοιτητής και είναι εγεγγραμένος σε αυτά τα μαθήματα: " +file_integers);
-				if(count==18419)
-				{
-					if(file_integers.get(0).equals(file_integers.get(1))){
-					System.out.println("Thee mou");
-					System.out.println(file_integers.get(0));
-					System.out.println(file_integers.get(1));
-					}
-				}
 			}
 		}catch (Exception e){
 			e.printStackTrace();
